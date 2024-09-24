@@ -7,7 +7,7 @@ const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(' adrian@jsmastery.pro');
+    navigator.clipboard.writeText(' Brendan@jsmastery.pro');
     setHasCopied(true);
 
     setTimeout(() => {
@@ -63,7 +63,7 @@ const About = () => {
             </div>
             <div>
               <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
+              <p className="grid-subtext">I&apos;m based in Gauteng, South Africa and open to remote work worldwide.</p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
             </div>
           </div>
@@ -77,7 +77,8 @@ const About = () => {
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
                 I love solving problems and building things through code. Programming isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills. 
+                I also have knowledge of supporting technologies due to my early experience as a system administrator, so I am familiar with servers.
               </p>
             </div>
           </div>
