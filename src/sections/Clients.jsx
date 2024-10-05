@@ -1,7 +1,7 @@
 import { clientReviews } from '../constants/index.js';
 
 const Clients = () => {
-  return (
+ /* return (
     <section className="c-space my-20">
       <h3 className="head-text">Hear from My Clients</h3>
 
@@ -31,7 +31,7 @@ const Clients = () => {
         ))}
       </div>
     </section>
-  );
+  );*/
 };
 
 export default Clients;

@@ -43,7 +43,7 @@ const Projects = () => {
             <img className="w-10 h-10 shadow-sm" src={currentProject.logo} alt="logo" />
           </div>
 
-          <div className="flex flex-col gap-5 text-white-600 my-5">
+          <div className="flex flex-col gap-5 text-black my-5">
             <p className="text-white text-2xl font-semibold animatedText">{currentProject.title}</p>
 
             <p className="animatedText">{currentProject.desc}</p>

@@ -232,21 +232,95 @@ body {
   }
 
   /* about section */
-  .grid-container {
-    @apply w-full h-full border border-black-300 bg-black-200 rounded-lg sm:p-7 p-4 flex flex-col gap-5;
-  }
+  
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: white;
+}
 
-  .grid-headtext {
-    @apply text-xl font-semibold mb-2 text-white font-generalsans;
-  }
+.about_header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
 
-  .grid-subtext {
-    @apply text-[#afb0b6] text-base font-generalsans;
-  }
+.title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
 
-  .copy-container {
-    @apply cursor-pointer flex justify-center items-center gap-2;
-  }
+.section__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.section__pic-container {
+  width: 300px;
+  height: 300px;
+}
+
+.about-pic {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.about-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-containers {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 1.2rem;
+}
+
+.details-container {
+  padding: 2rem; /* Reduced padding to make the container shorter */
+  background-color: #fff;
+  border-radius: 1rem;
+  border: 1px solid #a3a3a3;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 220px;
+}
+
+
+.details-container h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.details-container p {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.text-container {
+  max-width: 800px;
+  margin-top: 1rem; /* Adjusted margin to bring text closer to boxes */
+  text-align: center;
+  align-self: center; /* Centers the text relative to the boxes */
+}
+
+.text-container p {
+  padding: 2rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
 
   /* projects section  */
   .arrow-btn {
