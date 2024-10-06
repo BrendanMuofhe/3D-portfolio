@@ -19,11 +19,12 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+//service_gizo2qf
+//template_29weu5p
+//GH-qIFtquqmWFxqHx
+    emailjs.send(
+      service_gizo2qf,
+      template_29weu5p,
         {
           from_name: form.name,
           to_name: 'Brendan Muofhe',
@@ -31,7 +32,7 @@ const Contact = () => {
           to_email: 'muofheb@gmail.com',
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
+        GH-qIFtquqmWFxqHx,
       )
       .then(
         () => {
