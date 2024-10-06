@@ -68,7 +68,7 @@ export const myProjects = [
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
-      boxShadow: '0px 0px 60px 0px #AA3C304D',
+      boxShadow: '0px 0px 60px 0px #b80d0f',
     },
     spotlight: '/assets/spotlight1.png',
     tags: [
@@ -105,7 +105,7 @@ export const myProjects = [
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
-      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+      boxShadow: '0px 0px 60px 0px #1aa6b2',
     },
     spotlight: '/assets/spotlight2.png',
     tags: [
@@ -144,7 +144,7 @@ export const myProjects = [
       background:
         'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
       border: '0.2px solid rgba(208, 213, 221, 1)',
-      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+      boxShadow: '0px 0px 60px 0px #469a33',
     },
     spotlight: '/assets/spotlight3.png',
     tags: [
@@ -181,7 +181,7 @@ export const myProjects = [
     logoStyle: {
       backgroundColor: '#0E1F38',
       border: '0.2px solid #0E2D58',
-      boxShadow: '0px 0px 60px 0px #2F67B64D',
+      boxShadow: '0px 0px 60px 0px #0da1ea',
     },
     spotlight: '/assets/spotlight4.png',
     tags: [
@@ -218,7 +218,7 @@ export const myProjects = [
     logoStyle: {
       backgroundColor: '#1C1A43',
       border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
+      boxShadow: '0px 0px 60px 0px #905de1',
     },
     spotlight: '/assets/spotlight5.png',
     tags: [
@@ -260,29 +260,30 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    name: 'KFC',
+    pos: 'Senior Software Developer',
+    duration: '2024 - Present',
+    title: "As a Senior Software Developer, I lead the development of high-performance applications and system architectures. I focus on creating scalable, maintainable solutions that meet business needs and enhance user experience.",
+    icon: '/assets/kfc.svg',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    name: 'Telkom',
+    pos: 'Junior Software Developer',
+    duration: '2023 - 2024',
+    title: "In this role, I contributed to full-stack development projects, collaborating with cross-functional teams to deliver software solutions. I was involved in debugging, optimizing code, and improving existing systems for better performance.",
+    icon: '/assets/telkom.svg',
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
+    name: 'Telkom',
+    pos: 'System Administrator',
+    duration: '2022 - 2023',
+    title: "As a System Administrator, I managed and maintained the company’s IT infrastructure, ensuring optimal performance, security, and reliability. My responsibilities included server management, network troubleshooting, and providing technical support.",
+    icon: '/assets/telkom.svg',
     animation: 'salute',
   },
 ];
+
