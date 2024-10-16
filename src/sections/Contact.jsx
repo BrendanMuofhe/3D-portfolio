@@ -22,17 +22,17 @@ const Contact = () => {
 //service_gizo2qf
 //template_29weu5p
 //GH-qIFtquqmWFxqHx
-    emailjs.send(
-      service_gizo2qf,
-      template_29weu5p,
-        {
-          from_name: form.name,
-          to_name: 'Brendan Muofhe',
-          from_email: form.email,
-          to_email: 'muofheb@gmail.com',
-          message: form.message,
-        },
-        GH-qIFtquqmWFxqHx,
+  emailjs.send(
+    'service_gizo2qf', // Service ID as a string
+    'template_29weu5p', // Template ID as a string
+      {
+        from_name: form.name,
+        to_name: 'Brendan Muofhe',
+        from_email: form.email,
+        to_email: 'muofheb@gmail.com',
+        message: form.message,
+      },
+    'GH-qIFtquqmWFxqHx' // Public key as a string
       )
       .then(
         () => {
