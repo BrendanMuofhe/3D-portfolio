@@ -19,50 +19,48 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-//service_gizo2qf
-//template_29weu5p
-//GH-qIFtquqmWFxqHx
-  emailjs.send(
-    'service_gizo2qf', // Service ID as a string
-    'template_29weu5p', // Template ID as a string
+
+    emailjs.send(
+      'service_gizo2qf', // Service ID
+      'template_29weu5p', // Template ID
       {
         from_name: form.name,
         to_name: 'Brendan Muofhe',
-        from_email: form.email,
-        to_email: 'muofheb@gmail.com',
+        from_email: form.email, // This will be the user's email
+        to_email: 'muofheb@gmail.com', // Your email
         message: form.message,
       },
-    'GH-qIFtquqmWFxqHx' // Public key as a string
-      )
-      .then(
-        () => {
-          setLoading(false);
-          showAlert({
-            show: true,
-            text: 'Thank you for your message 😃',
-            type: 'success',
-          });
+      'GH-qIFtquqmWFxqHx' // Public key
+    )
+    .then(
+      () => {
+        setLoading(false);
+        showAlert({
+          show: true,
+          text: 'Thank you for your message 😃',
+          type: 'success',
+        });
 
-          setTimeout(() => {
-            hideAlert(false);
-            setForm({
-              name: '',
-              email: '',
-              message: '',
-            });
-          }, [3000]);
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
-
-          showAlert({
-            show: true,
-            text: "I didn't receive your message 😢",
-            type: 'danger',
+        setTimeout(() => {
+          hideAlert(false);
+          setForm({
+            name: '',
+            email: '',
+            message: '',
           });
-        },
-      );
+        }, [3000]);
+      },
+      (error) => {
+        setLoading(false);
+        console.error(error);
+
+        showAlert({
+          show: true,
+          text: "I didn't receive your message 😢",
+          type: 'danger',
+        });
+      },
+    );
   };
 
   return (
@@ -121,7 +119,6 @@ const Contact = () => {
 
             <button className="field-btn" type="submit" disabled={loading}>
               {loading ? 'Sending...' : 'Send Message'}
-
               <img src="/assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" />
             </button>
           </form>
