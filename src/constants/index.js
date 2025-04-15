@@ -261,9 +261,9 @@ export const workExperiences = [
   {
     id: 1,
     name: 'KFC',
-    pos: 'Senior Software Developer',
+    pos: 'Mid-Level Software Developer',
     duration: '2024 - Present',
-    title: "As a Senior Software Developer, I lead the development of high-performance applications and system architectures. I focus on creating scalable, maintainable solutions that meet business needs and enhance user experience.",
+    title: "As a Mid-Level Software Developer, I lead the development of high-performance applications and system architectures. I focus on creating scalable, maintainable solutions that meet business needs and enhance user experience.",
     icon: '/assets/kfc.svg',
     animation: 'victory',
   },
