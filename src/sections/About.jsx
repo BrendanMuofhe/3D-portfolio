@@ -65,12 +65,13 @@ const About = () => {
 
     <div class="text-container">
       <p>
-          I am a dedicated software developer with over three years of experience in creating innovative solutions and improving user experiences. 
-          My journey in technology began with a diploma in Computer Systems Engineering, where I gained a solid foundation in programming and system design. 
-          Along the way, I have earned more than eight certificates in automation and programming, continuously enhancing my skills to stay ahead in this rapidly evolving field.
-          My passion lies in leveraging technology to solve real-world problems and streamline processes. I thrive in collaborative environments, enjoy tackling challenges, 
-          and am always eager to learn new technologies and methodologies. Whether it's working on a team project or diving into independent research, 
-          I am committed to delivering high-quality results that exceed expectations.
+          I’m a full-stack developer and automation engineer with over three years of hands-on experience delivering real-world solutions. 
+          My journey started as a system administrator at Telkom, where I developed a strong foundation in infrastructure, DevOps, and scripting. 
+          Over time, I transitioned into software development, blending my backend knowledge with modern frontend frameworks to build complete, production-grade systems.
+          I hold a diploma in Computer Systems Engineering and have earned over eight certifications in software development and automation. 
+          Most recently, I designed, built, and deployed a uniform ordering platform used across 60+ KFC stores — streamlining operations for hundreds of employees.
+          I’m passionate about solving problems, simplifying workflows, and turning ideas into tools that people actually use. 
+          I thrive in fast-paced, collaborative environments, and I’m always pushing myself to learn, improve, and deliver high-quality, scalable solutions.
       </p>
     </div>
   </div>
